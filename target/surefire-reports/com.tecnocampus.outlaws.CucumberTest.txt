@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tecnocampus.outlaws.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.851 s -- in com.tecnocampus.outlaws.CucumberTest

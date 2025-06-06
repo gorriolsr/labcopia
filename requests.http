@@ -1,0 +1,97 @@
+
+### Create a new outlaw
+POST http://localhost:8080/outlaws
+Content-Type: application/json
+
+{
+  "name": "Jesse James",
+  "bounty": 10000
+}
+
+> {%
+    client.global.set("outlaw_id", response.body.id);
+%}
+
+### Get all outlaws
+GET http://localhost:8080/outlaws
+Accept: application/json
+
+### Get a specific outlaw by ID
+GET http://localhost:8080/outlaws/{{outlaw_id}}
+Accept: application/json
+
+### Update an existing outlaw
+PUT http://localhost:8080/outlaws/{{outlaw_id}}
+Content-Type: application/json
+
+{
+  "name": "Billy the Kid",
+  "bounty": 15000
+}
+
+### Partially update outlaw's bounty
+PATCH http://localhost:8080/outlaws/{{outlaw_id}}
+Content-Type: application/json
+
+{
+  "bounty": 20000
+}
+
+### Delete an outlaw
+DELETE http://localhost:8080/outlaws/{{outlaw_id}}
+
+### Get the most wanted outlaw
+GET http://localhost:8080/outlaws/most-wanted
+Accept: application/json
+
+### Create a new sheriff
+POST http://localhost:8080/sheriffs
+Content-Type: application/json
+
+{
+  "name": "Wyatt Earp",
+  "salary": 5000,
+  "captures": 3,
+  "eliminations": 1
+}
+
+> {%
+    client.global.set("sheriff_id", response.body.id);
+%}
+### Get all sheriffs
+GET http://localhost:8080/sheriffs
+Accept: application/json
+
+### Get a specific sheriff by ID
+GET http://localhost:8080/sheriffs/{{sheriff_id}}
+Accept: application/json
+
+
+
+### Update a sheriff
+PUT http://localhost:8080/sheriffs/{{sheriff_id}}
+Content-Type: application/json
+
+{
+  "name": "Pat Garrett",
+  "salary": 6000,
+  "captures": 5,
+  "eliminations": 2
+}
+
+### Partially update sheriff's salary
+PATCH http://localhost:8080/sheriffs/{{sheriff_id}}
+Content-Type: application/json
+
+{
+  "salary": 7000
+}
+
+### Delete a sheriff
+DELETE http://localhost:8080/sheriffs/{{sheriff_id}}
+
+### Capture an outlaw
+POST http://localhost:8080/sheriffs/{{sheriff_id}}/capture/{{outlaw_id}}
+
+### Eliminate an outlaw
+POST http://localhost:8080/sheriffs/{{sheriff_id}}/eliminate/{{outlaw_id}}

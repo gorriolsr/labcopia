@@ -1,0 +1,11 @@
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/WildWestOutlawsApplication.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/api/OutlawRestController.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/api/SheriffRestController.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/domain/Outlaw.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/domain/OutlawStatus.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/domain/Sheriff.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/domain/User.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/persistence/UserRepository.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/utilities/InvalidDataException.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/utilities/InvalidStateChangeException.java
+/Users/jordib/Dropbox/Documents/Personal/Professor/2025/Wild West Outlaws API - Individual Ex 1/src/main/java/com/tecnocampus/outlaws/utilities/NotFoundException.java

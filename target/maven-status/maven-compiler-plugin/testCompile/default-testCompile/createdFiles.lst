@@ -1,0 +1,4 @@
+com/tecnocampus/outlaws/CucumberTest.class
+com/tecnocampus/outlaws/steps/OutlawSteps.class
+com/tecnocampus/outlaws/steps/SheriffSteps.class
+com/tecnocampus/outlaws/steps/CucumberSpringConfiguration.class
