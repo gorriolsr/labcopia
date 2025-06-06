@@ -1,7 +1,7 @@
-# Wild West Outlaws - Individual Project Block 1
+# TecnoMeet - Final Project
 
 ## Overview
-Welcome to the **Wild West Outlaws** project! In this assignment, you will develop a **Spring Boot REST API** that simulates a sheriff managing a list of wanted outlaws in the Wild West.
+TecnoMeet is a Spring Boot REST API that lets Tecnocampus students register, find matches and chat with each other. It demonstrates layered architecture, validation and testing.
 
 ### Features
 The API should allow users to:
